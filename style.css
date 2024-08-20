@@ -1,0 +1,110 @@
+body{
+
+    background: url('BackgroundImageeee.png')no-repeat center center fixed;
+    background-size: center;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;            /* Adjusts width based on the screen size */
+    max-width: 600px;     /* Limits the max width on larger screens */
+    height: 70vh;
+    align-items: flex-end;
+}
+.rbtn{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-image: url('undo.png');
+    background-size: 90%;
+    background-position: center;
+    background-color: #ffd900;
+    position: absolute;
+    top: 80%;
+    cursor: pointer;
+}
+.plus, .minus{
+  width: 75px;          /* Set the width */
+  height: 75px;         /* Set the height (same as width for a circle) */
+  border-radius: 50%;   /* Make the button circular */
+  border: none;
+  border-color: black;         /* Optional: remove border */
+  background-color: 	#ffd900; /* Optional: set background color */
+  color: rgb(0, 0, 0);         /* Optional: set text color */
+  font-size: 24px;      /* Increase the size of the + and - signs */
+  display: flex;        /* Flexbox to center the text */
+  align-items: center;  /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  cursor: pointer; 
+
+}
+.counter{
+    position: absolute;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    width: fit-content;
+    height: fit-content;
+    top: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dropbtn {
+    background-color: #ffd900;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #000000; color: #ddd;}
+ 
+ 
+  .display-area {
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 86px;
+   width: fit-content;
+   height: fit-content;
+   top: 20%;
+   color: antiquewhite;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Tasbih Application</title>
+</head>
+<body>
+    
+    <div class="dropdown">
+        <button class="dropbtn">Recitations</button>
+        <div class="dropdown-content">
+          <a href="#" class="dropdown-item">الحمد لله</a>
+          <a href="#" class="dropdown-item">الله أكبر</a>
+          <a href="#" class="dropdown-item">لا إله إلا الله</a>
+          <a href="#" class="dropdown-item">أستغفر الله</a>
+        </div>
+    </div>
+
+    <div class="display-area" id="display-area"> <!-- Area to display selected text -->
+        <!-- Text will be displayed here -->
+    </div>
+
+    <span class="counter" id="counter">0</span>
+
+    <div class="container">
+        <button class="minus" id="decrement">-</button>
+        <button class="plus" id="increment">+</button>
+    </div>
+
+    <button class="rbtn" id="reset"></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
